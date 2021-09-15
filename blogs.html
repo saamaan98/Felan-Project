@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>طراحی و بهینه سازی وب</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/uikit-rtl.min.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+    <script src="https://kit.fontawesome.com/ac39a0bb2b.js"></script>
+</head>
+
+<body>
+    <div class="navBar" uk-sticky>
+        <div class="uk-position-relative">
+
+            <nav class="uk-navbar-container container" uk-navbar="dropbar: true">
+
+                <div class="uk-navbar-right">
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="#">خدمات
+                                <i class="fas fa-chevron-down mr5"></i>
+                            </a>
+                            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
+                                <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">طراحی سایت</a></li>
+                                            <li><a href="#">آیتم 1</a></li>
+                                            <li><a href="#">آیتم 2</a></li>
+                                            <li><a href="#">آیتم 3</a></li>
+                                            <li><a href="#">آیتم 4</a></li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">بهینه سازی</a></li>
+                                            <li><a href="#">آیتم 1</a></li>
+                                            <li><a href="#">آیتم 2</a></li>
+                                            <li><a href="#">آیتم 3</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">نمونه کار ها</a>
+                        </li>
+                        <li>
+                            <a href="#">وبلاگ</a>
+                        </li>
+                        <li>
+                            <a href="#">درباره ما</a>
+                        </li>
+                        <li>
+                            <a href="#">تماس با ما</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="uk-navbar-left">
+
+                    <ul class="uk-navbar-nav">
+                        <li class="menuContactUs">
+                            <div>
+                                <a href="tel:09121112233">
+                                    <i class="fas fa-phone-alt"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <div class="uk-navbar-dropbar"></div>
+
+        </div>
+    </div>
+    <div class="mobileNavBar" uk-sticky>
+        <button class="uk-button uk-button-default MY-uk-button-default" type="button"
+            uk-toggle="target: #offcanvas-flip"><i class="fas fa-bars"></i></button>
+
+        <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s mobileNavItems">
+                    <ul class="uk-nav-default uk-nav-parent-icon MY-uk-nav-parent-icon" uk-nav>
+                        <li class="uk-parent uk-active">
+                            <a href="#">خدمات</a>
+                            <ul class="uk-nav-primary uk-nav-parent-icon MY-uk-nav-parent-icon" uk-nav>
+                                <li class="uk-parent">
+                                    <a href="#">طراحی سایت</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="#">آیتم 1</a></li>
+                                        <li><a href="#">آیتم 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent">
+                                    <a href="#">بهینه سازی</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="#">آیتم 1</a></li>
+                                        <li><a href="#">آیتم 2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="uk-active"><a href="#">نمونه کار ها</a></li>
+                        <li class="uk-active"><a href="#">وبلاگ</a></li>
+                        <li class="uk-active"><a href="#">درباره ما</a></li>
+                        <li class="uk-active"><a href="#">تماس با ما</a></li>
+
+                        <li class="uk-nav-divider"></li>
+                        <li class="menuContactUs">
+                            <div>
+                                <a href="tel:09121112233">
+                                    <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-webdesign">
+        <img src="img/blog-banner.png" class="img-fluid w-100">
+        <div class="txt-banner">
+            <h1 class="font-18 text-right text-white mb-3"> مقالات علمی</h1>
+            <div class="breadcrumbs">
+                <div class="speedbar-append">
+                    <div id="speedbar">
+                        <div class="speedbar">
+                            <span id="dle-speedbar"><span>
+                                    <a href="#">
+                                        <span>صفحه اصلی</span>
+                                    </a>
+                                </span>
+                                »
+                                <span>
+                                    <a href="#">
+                                        <span>مقالات</span>
+                                    </a>
+                                </span>
+                                »
+                                <span>
+                                    <a href="#">
+                                        <span>web-design</span>
+                                    </a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================= -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-9 col-sm-12">
+                    <div class="row">
+                        <div id="dle-content">
+                            <div class="col-md-12 padding-40 mb-5 float-right">
+                                <article class="blog-grid-page">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="text-right lower-content-page">
+                                                <h6 class="font-weight-bold rtl blogTitle">سرتیتر مقاله</h6>
+                                                <hr>
+                                                <p class="rtl">
+                                                    <i class="fas fa-pen"></i>
+                                                    <span>
+                                                        <a href="#">نویسنده</a> در
+                                                    </span>
+                                                    <i class="fas fa-clock"></i>
+                                                    <span> 1398/03/27</span>
+                                                </p>
+                                                <div class="line-height-2l rtl mb-3">
+                                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                                    استفاده از طراحان گرافیک است.
+                                                </div>
+                                                <a href="#" class="btn-continue">
+                                                    بیشتر بخوانید
+                                                    <i class="fas fa-caret-left"></i>
+                                                </a>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="image-box-page">
+                                                <a href="#">
+                                                    <img src="https://roocket.ir/public/images/2019/6/17/ux.png"
+                                                        class="img-fluid" alt="alt">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                                <article class="blog-grid-page">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="text-right lower-content-page">
+                                                <h6 class="font-weight-bold rtl blogTitle">سرتیتر مقاله</h6>
+                                                <hr>
+                                                <p class="rtl">
+                                                    <i class="fas fa-pen"></i>
+                                                    <span>
+                                                        <a href="#">نویسنده</a> در
+                                                    </span>
+                                                    <i class="fas fa-clock"></i>
+                                                    <span> 1398/03/27</span>
+                                                </p>
+                                                <div class="line-height-2l rtl mb-3">
+                                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                                    استفاده از طراحان گرافیک است.
+                                                </div>
+                                                <a href="#" class="btn-continue">
+                                                    بیشتر بخوانید
+                                                    <i class="fas fa-caret-left"></i>
+                                                </a>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="image-box-page">
+                                                <a href="#">
+                                                    <img src="https://roocket.ir/public/images/2019/6/17/ux.png"
+                                                        class="img-fluid" alt="alt">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                                <article class="blog-grid-page">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="text-right lower-content-page">
+                                                <h6 class="font-weight-bold rtl blogTitle">سرتیتر مقاله</h6>
+                                                <hr>
+                                                <p class="rtl">
+                                                    <i class="fas fa-pen"></i>
+                                                    <span>
+                                                        <a href="#">نویسنده</a> در
+                                                    </span>
+                                                    <i class="fas fa-clock"></i>
+                                                    <span> 1398/03/27</span>
+                                                </p>
+                                                <div class="line-height-2l rtl mb-3">
+                                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                                    استفاده از طراحان گرافیک است.
+                                                </div>
+                                                <a href="#" class="btn-continue">
+                                                    بیشتر بخوانید
+                                                    <i class="fas fa-caret-left"></i>
+                                                </a>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="image-box-page">
+                                                <a href="#">
+                                                    <img src="https://roocket.ir/public/images/2019/6/17/ux.png"
+                                                        class="img-fluid" alt="alt">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                                <article class="blog-grid-page">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="text-right lower-content-page">
+                                                <h6 class="font-weight-bold rtl blogTitle">سرتیتر مقاله</h6>
+                                                <hr>
+                                                <p class="rtl">
+                                                    <i class="fas fa-pen"></i>
+                                                    <span>
+                                                        <a href="#">نویسنده</a> در
+                                                    </span>
+                                                    <i class="fas fa-clock"></i>
+                                                    <span> 1398/03/27</span>
+                                                </p>
+                                                <div class="line-height-2l rtl mb-3">
+                                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                                    استفاده از طراحان گرافیک است.
+                                                </div>
+                                                <a href="#" class="btn-continue">
+                                                    بیشتر بخوانید
+                                                    <i class="fas fa-caret-left"></i>
+                                                </a>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="image-box-page">
+                                                <a href="#">
+                                                    <img src="https://roocket.ir/public/images/2019/6/17/ux.png"
+                                                        class="img-fluid" alt="alt">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-xs-12">
+                                <ul class="mt60 uk-pagination uk-flex-center" uk-margin>
+                                    <li><a href="#"><span uk-pagination-next></span></a></li>
+                                    <li><a href="#">1</a></li>
+                                    <li class="uk-disabled"><span>...</span></li>
+
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#">6</a></li>
+                                    <li class="uk-active"><span>7</span></li>
+                                    <li><a href="#">8</a></li>
+                                    <li><a href="#"><span uk-pagination-previous></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3 col-xs-12 col-sm-12">
+                    <aside>
+                        <div class="widget_recent_post">
+                            <h6 class="font-weight-bold newest-blog text-right font-16">
+                                <i class="fas fa-book-open purple-color fa-xs"></i>
+                                اخبار روز دنیای وب
+                            </h6>
+                            <article class="latest-blog text-right">
+                                <div class="post-blog d-flex rtl flex-row">
+                                    <div class="title-post">
+                                        <h5>
+                                            <a href="#" class="font-14 text-secondary"> پنهان کردن عکس پروفایل
+                                                تلگرام</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="widget_recent_post">
+                            <h6 class="font-weight-bold newest-blog text-right font-16">
+                                <i class="fas fa-book-open purple-color fa-xs"></i>
+                                جدیدترین ها
+                            </h6>
+                            <article class="latest-blog text-right">
+                                <div class="post-blog d-flex rtl flex-row">
+                                    <div class="title-post">
+                                        <h5>
+                                            <a href="#" class="font-14 text-secondary"> صفحه اول گوگل</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="latest-blog text-right">
+                                <div class="post-blog d-flex rtl flex-row">
+                                    <div class="title-post">
+                                        <h5>
+                                            <a href="#" class="font-14 text-secondary"> تکنیک های افزایش فروش</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="latest-blog text-right">
+                                <div class="post-blog d-flex rtl flex-row">
+                                    <div class="title-post">
+                                        <h5>
+                                            <a href="#" class="font-14 text-secondary"> تبلیغات رایگان در اینترنت</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="latest-blog text-right">
+                                <div class="post-blog d-flex rtl flex-row">
+                                    <div class="title-post">
+                                        <h5>
+                                            <a href="#" class="font-14 text-secondary"> صفحه اول گوگل</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="latest-blog text-right">
+                                <div class="post-blog d-flex rtl flex-row">
+                                    <div class="title-post">
+                                        <h5>
+                                            <a href="#" class="font-14 text-secondary"> تکنیک های افزایش فروش</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="latest-blog text-right">
+                                <div class="post-blog d-flex rtl flex-row">
+                                    <div class="title-post">
+                                        <h5>
+                                            <a href="#" class="font-14 text-secondary"> تبلیغات رایگان در اینترنت</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer start-->
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row myFlex">
+                <div class=" col-sm-4 col-md-3 col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">لوگو</h5>
+                    <p class="mb10">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                    </p>
+                    <p><i class="fa fa-location-arrow"></i> ایران، تهران، خیابان، کوچه </p>
+                    <p><i class="fa fa-phone"></i> 09121112233 </p>
+                    <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+                </div>
+                <div class=" col-sm-4 col-md-3  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">دسترسی سریع</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="#">لینک اول</a></li>
+                        <li><a href="#">لینک دو</a></li>
+                        <li><a href="#">سومین لینک</a></li>
+                        <li><a href="#">لینک 4</a></li>
+                    </ul>
+                </div>
+                <div class=" col-sm-4 col-md-3  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">لینک های مرتبط</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="#">لینک اول</a></li>
+                        <li><a href="#">لینک دو</a></li>
+                        <li><a href="#">سومین لینک</a></li>
+                        <li><a href="#">لینک 4</a></li>
+                    </ul>
+                </div>
+                <div class=" col-sm-4 col-md-3  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">لینک های مرتبط</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="#">لینک اول</a></li>
+                        <li><a href="#">لینک دو</a></li>
+                        <li><a href="#">سومین لینک</a></li>
+                        <li><a href="#">لینک 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="text-center">تمامی حقوق مادی و معنوی این وبسایت متعلق به شرکت فلان می باشد و هر گونه کپی برداری
+                پیگرد قانونی دارد.</a></p>
+
+            <ul class="social_footer_ul">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/uikit.min.js"></script>
+</body>
+
+</html>

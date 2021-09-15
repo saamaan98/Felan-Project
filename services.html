@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>طراحی و بهینه سازی وب</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/uikit-rtl.min.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <script src="https://kit.fontawesome.com/ac39a0bb2b.js"></script>
+</head>
+
+<body>
+    <div class="navBar" uk-sticky>
+        <div class="uk-position-relative">
+
+            <nav class="uk-navbar-container container" uk-navbar="dropbar: true">
+
+                <div class="uk-navbar-right">
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="#">خدمات
+                                <i class="fas fa-chevron-down mr5"></i>
+                            </a>
+                            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
+                                <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">طراحی سایت</a></li>
+                                            <li><a href="#">آیتم 1</a></li>
+                                            <li><a href="#">آیتم 2</a></li>
+                                            <li><a href="#">آیتم 3</a></li>
+                                            <li><a href="#">آیتم 4</a></li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">بهینه سازی</a></li>
+                                            <li><a href="#">آیتم 1</a></li>
+                                            <li><a href="#">آیتم 2</a></li>
+                                            <li><a href="#">آیتم 3</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">نمونه کار ها</a>
+                        </li>
+                        <li>
+                            <a href="#">وبلاگ</a>
+                        </li>
+                        <li>
+                            <a href="#">درباره ما</a>
+                        </li>
+                        <li>
+                            <a href="#">تماس با ما</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="uk-navbar-left">
+
+                    <ul class="uk-navbar-nav">
+                        <li class="menuContactUs">
+                            <div>
+                                <a href="tel:09121112233">
+                                    <i class="fas fa-phone-alt"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <div class="uk-navbar-dropbar"></div>
+
+        </div>
+    </div>
+    <div class="mobileNavBar" uk-sticky>
+        <button class="uk-button uk-button-default MY-uk-button-default" type="button"
+            uk-toggle="target: #offcanvas-flip"><i class="fas fa-bars"></i></button>
+
+        <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s mobileNavItems">
+                    <ul class="uk-nav-default uk-nav-parent-icon MY-uk-nav-parent-icon" uk-nav>
+                        <li class="uk-parent uk-active">
+                            <a href="#">خدمات</a>
+                            <ul class="uk-nav-primary uk-nav-parent-icon MY-uk-nav-parent-icon" uk-nav>
+                                <li class="uk-parent">
+                                    <a href="#">طراحی سایت</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="#">آیتم 1</a></li>
+                                        <li><a href="#">آیتم 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent">
+                                    <a href="#">بهینه سازی</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="#">آیتم 1</a></li>
+                                        <li><a href="#">آیتم 2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="uk-active"><a href="#">نمونه کار ها</a></li>
+                        <li class="uk-active"><a href="#">وبلاگ</a></li>
+                        <li class="uk-active"><a href="#">درباره ما</a></li>
+                        <li class="uk-active"><a href="#">تماس با ما</a></li>
+
+                        <li class="uk-nav-divider"></li>
+                        <li class="menuContactUs">
+                            <div>
+                                <a href="tel:09121112233">
+                                    <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================= -->
+    <section class="service-sec-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="sectionImg">
+                        <img src="img/seo.png" alt="seo">
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <h1>خدمات سئو و بهینه سازی وبسایت</h1>
+                    <h2>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با.
+                    </h2>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                        درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری
+                        را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+                    </p>
+                    <div class="sec1-btn">
+                        <a href="#" class="seoPricing">تعرفه ها و سفارش خدمات سئو</a>
+                        <a href="#" class="seoAdvice">مشاوره رایگان</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================== -->
+    <!-- ========================== -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-30">
+                    <a href="#">
+                        <article class="card">
+                            <header class="card-thumb">
+                                <img src="https://www.saerox-design.com/skapp/assets/images/blog/01.jpg" alt="blog">
+                            </header>
+
+
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#">خدمات سئو</a></h3>
+                                <div class="card-subtitle">خدمات سئو و بهینه سازی</div>
+                                <p class="card-description">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                </p>
+                            </div>
+
+                        </article>
+                    </a>
+
+                </div>
+                <div class="col-md-4 mb-30">
+                    <a href="#">
+                        <article class="card">
+                            <header class="card-thumb">
+                                <img src="https://www.saerox-design.com/skapp/assets/images/blog/01.jpg" alt="blog">
+                            </header>
+
+
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#">خدمات سئو</a></h3>
+                                <div class="card-subtitle">خدمات سئو و بهینه سازی</div>
+                                <p class="card-description">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                </p>
+                            </div>
+
+                        </article>
+                    </a>
+
+                </div>
+                <div class="col-md-4 mb-30">
+                    <a href="#">
+                        <article class="card">
+                            <header class="card-thumb">
+                                <img src="https://www.saerox-design.com/skapp/assets/images/blog/01.jpg" alt="blog">
+                            </header>
+
+
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#">خدمات سئو</a></h3>
+                                <div class="card-subtitle">خدمات سئو و بهینه سازی</div>
+                                <p class="card-description">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                </p>
+                            </div>
+
+                        </article>
+                    </a>
+
+                </div>
+                <div class="col-md-4 mb-30">
+                    <a href="#">
+                        <article class="card">
+                            <header class="card-thumb">
+                                <img src="https://www.saerox-design.com/skapp/assets/images/blog/01.jpg" alt="blog">
+                            </header>
+
+
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#">خدمات سئو</a></h3>
+                                <div class="card-subtitle">خدمات سئو و بهینه سازی</div>
+                                <p class="card-description">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                </p>
+                            </div>
+
+                        </article>
+                    </a>
+
+                </div>
+                <div class="col-md-4 mb-30">
+                    <a href="#">
+                        <article class="card">
+                            <header class="card-thumb">
+                                <img src="https://www.saerox-design.com/skapp/assets/images/blog/01.jpg" alt="blog">
+                            </header>
+
+
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#">خدمات سئو</a></h3>
+                                <div class="card-subtitle">خدمات سئو و بهینه سازی</div>
+                                <p class="card-description">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                </p>
+                            </div>
+
+                        </article>
+                    </a>
+
+                </div>
+                <div class="col-md-4 mb-30">
+                    <a href="#">
+                        <article class="card">
+                            <header class="card-thumb">
+                                <img src="https://www.saerox-design.com/skapp/assets/images/blog/01.jpg" alt="blog">
+                            </header>
+
+
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#">خدمات سئو</a></h3>
+                                <div class="card-subtitle">خدمات سئو و بهینه سازی</div>
+                                <p class="card-description">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                </p>
+                            </div>
+
+                        </article>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================== -->
+
+
+    <!--footer start-->
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row myFlex">
+                <div class=" col-sm-4 col-md-3 col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">لوگو</h5>
+                    <p class="mb10">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                    </p>
+                    <p><i class="fa fa-location-arrow"></i> ایران، تهران، خیابان، کوچه </p>
+                    <p><i class="fa fa-phone"></i> 09121112233 </p>
+                    <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+                </div>
+                <div class=" col-sm-4 col-md-3  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">دسترسی سریع</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="#">لینک اول</a></li>
+                        <li><a href="#">لینک دو</a></li>
+                        <li><a href="#">سومین لینک</a></li>
+                        <li><a href="#">لینک 4</a></li>
+                    </ul>
+                </div>
+                <div class=" col-sm-4 col-md-3  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">لینک های مرتبط</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="#">لینک اول</a></li>
+                        <li><a href="#">لینک دو</a></li>
+                        <li><a href="#">سومین لینک</a></li>
+                        <li><a href="#">لینک 4</a></li>
+                    </ul>
+                </div>
+                <div class=" col-sm-4 col-md-3  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">لینک های مرتبط</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="#">لینک اول</a></li>
+                        <li><a href="#">لینک دو</a></li>
+                        <li><a href="#">سومین لینک</a></li>
+                        <li><a href="#">لینک 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="text-center">تمامی حقوق مادی و معنوی این وبسایت متعلق به شرکت فلان می باشد و هر گونه کپی برداری
+                پیگرد قانونی دارد.</a></p>
+
+            <ul class="social_footer_ul">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/uikit.min.js"></script>
+</body>
+
+</html>

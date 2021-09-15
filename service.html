@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>طراحی و بهینه سازی وب</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/uikit-rtl.min.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <script src="https://kit.fontawesome.com/ac39a0bb2b.js"></script>
+</head>
+
+<body>
+    <div class="navBar" uk-sticky>
+        <div class="uk-position-relative">
+
+            <nav class="uk-navbar-container container" uk-navbar="dropbar: true">
+
+                <div class="uk-navbar-right">
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="#">خدمات
+                                <i class="fas fa-chevron-down mr5"></i>
+                            </a>
+                            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
+                                <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">طراحی سایت</a></li>
+                                            <li><a href="#">آیتم 1</a></li>
+                                            <li><a href="#">آیتم 2</a></li>
+                                            <li><a href="#">آیتم 3</a></li>
+                                            <li><a href="#">آیتم 4</a></li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">بهینه سازی</a></li>
+                                            <li><a href="#">آیتم 1</a></li>
+                                            <li><a href="#">آیتم 2</a></li>
+                                            <li><a href="#">آیتم 3</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">نمونه کار ها</a>
+                        </li>
+                        <li>
+                            <a href="#">وبلاگ</a>
+                        </li>
+                        <li>
+                            <a href="#">درباره ما</a>
+                        </li>
+                        <li>
+                            <a href="#">تماس با ما</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="uk-navbar-left">
+
+                    <ul class="uk-navbar-nav">
+                        <li class="menuContactUs">
+                            <div>
+                                <a href="tel:09121112233">
+                                    <i class="fas fa-phone-alt"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <div class="uk-navbar-dropbar"></div>
+
+        </div>
+    </div>
+    <div class="mobileNavBar" uk-sticky>
+        <button class="uk-button uk-button-default MY-uk-button-default" type="button"
+            uk-toggle="target: #offcanvas-flip"><i class="fas fa-bars"></i></button>
+
+        <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s mobileNavItems">
+                    <ul class="uk-nav-default uk-nav-parent-icon MY-uk-nav-parent-icon" uk-nav>
+                        <li class="uk-parent uk-active">
+                            <a href="#">خدمات</a>
+                            <ul class="uk-nav-primary uk-nav-parent-icon MY-uk-nav-parent-icon" uk-nav>
+                                <li class="uk-parent">
+                                    <a href="#">طراحی سایت</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="#">آیتم 1</a></li>
+                                        <li><a href="#">آیتم 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent">
+                                    <a href="#">بهینه سازی</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="#">آیتم 1</a></li>
+                                        <li><a href="#">آیتم 2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="uk-active"><a href="#">نمونه کار ها</a></li>
+                        <li class="uk-active"><a href="#">وبلاگ</a></li>
+                        <li class="uk-active"><a href="#">درباره ما</a></li>
+                        <li class="uk-active"><a href="#">تماس با ما</a></li>
+
+                        <li class="uk-nav-divider"></li>
+                        <li class="menuContactUs">
+                            <div>
+                                <a href="tel:09121112233">
+                                    <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================= -->
+    <section class="service-sec-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="sectionImg">
+                        <img src="img/seo.png" alt="seo">
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <h1>خدمات سئو و بهینه سازی وبسایت</h1>
+                    <h2>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با.
+                    </h2>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                        درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری
+                        را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+                    </p>
+                    <div class="sec1-btn">
+                        <a href="#" class="seoPricing">تعرفه ها و سفارش خدمات سئو</a>
+                        <a href="#" class="seoAdvice">مشاوره رایگان</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================= -->
+    <section class="service-sec-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="serviceOptions">
+                        <div class="optionIcon optionIcon1">
+                            <img src="img/analysis.png" alt="analysis">
+                        </div>
+                        <div class="optionContent">
+                            <h3>
+                                افزایش ترافیک طبیعی سایت
+                            </h3>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serviceOptions">
+                        <div class="optionIcon optionIcon2">
+                            <img src="img/users.png" alt="analysis">
+                        </div>
+                        <div class="optionContent">
+                            <h3>
+                                افزایش ترافیک طبیعی سایت
+                            </h3>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serviceOptions">
+                        <div class="optionIcon optionIcon3">
+                            <img src="img/Scales.png" alt="analysis">
+                        </div>
+                        <div class="optionContent">
+                            <h3>
+                                افزایش ترافیک طبیعی سایت
+                            </h3>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================== -->
+    <section class="service-sec-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-7">
+                    <div class="seoServices">
+                        <h2>خدمات سئو نوین</h2>
+                        <p>
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="seoFetures">
+                                <div class="feturesIcon">
+                                    <img src="img/research.png" alt="seo">
+                                </div>
+                                <div class="fetureTitle">
+                                    <h4>آموزش مقدمات سئو</h4>
+                                </div>
+                                <div class="fetureContent">
+                                    <p>
+                                        اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="seoFetures">
+                                <div class="feturesIcon">
+                                    <img src="img/website.png" alt="seo">
+                                </div>
+                                <div class="fetureTitle">
+                                    <h4>آموزش مقدمات سئو</h4>
+                                </div>
+                                <div class="fetureContent">
+                                    <p>
+                                        اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="seoFetures">
+                                <div class="feturesIcon">
+                                    <img src="img/magnifying-glass.png" alt="seo">
+                                </div>
+                                <div class="fetureTitle">
+                                    <h4>آموزش مقدمات سئو</h4>
+                                </div>
+                                <div class="fetureContent">
+                                    <p>
+                                        اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="seoFetures">
+                                <div class="feturesIcon">
+                                    <img src="img/transaction.png" alt="seo">
+                                </div>
+                                <div class="fetureTitle">
+                                    <h4>آموزش مقدمات سئو</h4>
+                                </div>
+                                <div class="fetureContent">
+                                    <p>
+                                        اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="sec-3-img">
+                        <img src="img/web-optimization.png" alt="seo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================== -->
+    <section class="service-sec-4">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-5">
+                            <div class="sec-3-img">
+                                <img src="img/web-optimization.png" alt="seo">
+                                <p>
+                                      اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                </p>
+
+                                <a href="#">
+                                    درباره بهینه سازی محتوا بیشتر بدانید
+                                </a>
+                            </div>
+                        </div>
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="sec-Header">
+                                    بهینه سازی محتوای وب سایت
+                            </h2>
+                            <p class="sec-parag">
+                                    یکی از دو تکه پازل سئو، بهینه سازی ساختار وب سایت و محتوای آن است.
+                            </p>
+                            <p class="sec-parag">
+                                    کیفیت و عملکرد وب‌سایت شما نه تنها بر رتبۀ شما در موتورهای جستجوگر تاثیرگذار است، بلکه در ارتقای تجربۀ کاربر نیز موثر می‌باشد. ما بهترین تکنیک‌ها و استانداردهای بهینه‌سازی را برای شما بکار خواهیم بست.
+                            </p>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="seoFetures2">
+                                <div class="feturesIcon">
+                                    <img src="img/research.png" alt="seo">
+                                </div>
+                                <div>
+                                        <div class="fetureTitle">
+                                                <h4>آموزش مقدمات سئو</h4>
+                                            </div>
+                                            <div class="fetureContent">
+                                                <p>
+                                                    اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                                </p>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="seoFetures2">
+                                <div class="feturesIcon">
+                                    <img src="img/website.png" alt="seo">
+                                </div>
+                                <div>
+                                        <div class="fetureTitle">
+                                                <h4>آموزش مقدمات سئو</h4>
+                                            </div>
+                                            <div class="fetureContent">
+                                                <p>
+                                                    اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                                </p>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="seoFetures2">
+                                <div class="feturesIcon">
+                                    <img src="img/magnifying-glass.png" alt="seo">
+                                </div>
+                                <div>
+                                        <div class="fetureTitle">
+                                                <h4>آموزش مقدمات سئو</h4>
+                                            </div>
+                                            <div class="fetureContent">
+                                                <p>
+                                                    اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                                </p>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- ========================== -->
+     <section class="service-sec-4">
+            <div class="container">
+                <div class="row">
+                        <div class="col-md-5">
+                                <div class="sec-3-img">
+                                    <img src="img/web-optimization.png" alt="seo">
+                                    <p>
+                                          اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                    </p>
+    
+                                    <a href="#">
+                                        درباره بهینه سازی محتوا بیشتر بدانید
+                                    </a>
+                                </div>
+                            </div>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="sec-Header">
+                                        بهینه سازی محتوای وب سایت
+                                </h2>
+                                <p class="sec-parag">
+                                        یکی از دو تکه پازل سئو، بهینه سازی ساختار وب سایت و محتوای آن است.
+                                </p>
+                                <p class="sec-parag">
+                                        کیفیت و عملکرد وب‌سایت شما نه تنها بر رتبۀ شما در موتورهای جستجوگر تاثیرگذار است، بلکه در ارتقای تجربۀ کاربر نیز موثر می‌باشد. ما بهترین تکنیک‌ها و استانداردهای بهینه‌سازی را برای شما بکار خواهیم بست.
+                                </p>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="seoFetures2">
+                                    <div class="feturesIcon">
+                                        <img src="img/research.png" alt="seo">
+                                    </div>
+                                    <div>
+                                            <div class="fetureTitle">
+                                                    <h4>آموزش مقدمات سئو</h4>
+                                                </div>
+                                                <div class="fetureContent">
+                                                    <p>
+                                                        اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                                    </p>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="seoFetures2">
+                                    <div class="feturesIcon">
+                                        <img src="img/website.png" alt="seo">
+                                    </div>
+                                    <div>
+                                            <div class="fetureTitle">
+                                                    <h4>آموزش مقدمات سئو</h4>
+                                                </div>
+                                                <div class="fetureContent">
+                                                    <p>
+                                                        اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                                    </p>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="seoFetures2">
+                                    <div class="feturesIcon">
+                                        <img src="img/magnifying-glass.png" alt="seo">
+                                    </div>
+                                    <div>
+                                            <div class="fetureTitle">
+        <!-- ========================== -->
+        <h4>آموزش مقدمات سئو</h4>
+                                                </div>
+                                                <div class="fetureContent">
+                                                    <p>
+                                                        اصول تحلیل سئو را به شما آموزش می‌دهیم تا بتوانید کار ما را ارزیابی کنید.
+                                                    </p>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================== -->
+        <section class="service-sec-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                            <h2 class="sec-Header">
+                                    فعالیت سئو ما تا به امروز
+                            </h2>
+                            <p class="sec-parag">
+                                    نوین چقدر در بهینه سازی وب سایت های دیگر موفق بوده است؟
+                            </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <div class="seoActivity">
+                            <div class="activityTitle activityItems">
+                                <span>ملی پیامک</span>
+                                <a href="#">
+                                        <i class="fas fa-link"></i>
+                                    www.melipayamak.com
+                                </a>
+                            </div>
+                            <div class="activityParag activityItems">
+                                <p>
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                                </p>
+                            </div>
+                            <div class="activityOptions activityItems">
+                                <span>
+                                        <i class="fas fa-check"></i>
+                                    بهینه سازی سایت
+                                </span>
+                                <span>
+                                        <i class="fas fa-check"></i>
+                                    بهینه سازی سایت
+                                </span>
+                            </div>
+                            <div class="activityKeyWords activityItems">
+                                <span>
+                                        <i class="fas fa-trophy"></i>
+                                    کلمات کلیدی
+                                </span>
+                                <span class="keyWords">
+                                     پنل اس ام اس
+                                </span>
+                                <span class="keyWords">
+                                        پنل اس ام اس
+                                   </span>
+                                   <span class="keyWords">
+                                        پنل اس ام اس
+                                   </span>
+                                   <span class="keyWords">
+                                        پنل اس ام اس
+                                   </span>
+                                   <span class="keyWords">
+                                        پنل اس ام اس
+                                   </span>
+                            </div>
+                            <div class="activityResult activityItems">
+                                <span>
+                                        <i class="fas fa-rocket"></i>
+                                        5 برابر ورودی گوگل بیشتر ظرف 2 سال
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                            <div class="seoActivity">
+                                <div class="activityTitle activityItems">
+                                    <span>ملی پیامک</span>
+                                    <a href="#">
+                                            <i class="fas fa-link"></i>
+                                        www.melipayamak.com
+                                    </a>
+                                </div>
+                                <div class="activityParag activityItems">
+                                    <p>
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                                    </p>
+                                </div>
+                                <div class="activityOptions activityItems">
+                                    <span>
+                                            <i class="fas fa-check"></i>
+                                        بهینه سازی سایت
+                                    </span>
+                                    <span>
+                                            <i class="fas fa-check"></i>
+                                        بهینه سازی سایت
+                                    </span>
+                                </div>
+                                <div class="activityKeyWords activityItems">
+                                    <span>
+                                            <i class="fas fa-trophy"></i>
+                                        کلمات کلیدی
+                                    </span>
+                                    <span class="keyWords">
+                                         پنل اس ام اس
+                                    </span>
+                                    <span class="keyWords">
+                                            پنل اس ام اس
+                                       </span>
+                                       <span class="keyWords">
+                                            پنل اس ام اس
+                                       </span>
+                                       <span class="keyWords">
+                                            پنل اس ام اس
+                                       </span>
+                                       <span class="keyWords">
+                                            پنل اس ام اس
+                                       </span>
+                                </div>
+                                <div class="activityResult activityItems">
+                                    <span>
+                                            <i class="fas fa-rocket"></i>
+                                            5 برابر ورودی گوگل بیشتر ظرف 2 سال
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+       
+    <!-- ========================== -->
+    <section class="service-sec-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="seoServices">
+                            <h2>خدمات سئو نوین</h2>
+                            <p class="mb40">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-xs-12 col-md-4">
+                                <article>
+                                    <div class="image-box">
+                                        <a href="#">
+                                            <img src="https://roocket.ir/public/images/2019/6/9/webdesign.png" class="img-fluid" alt="alt">
+                                        </a>
+                                    </div>
+                                    <div class="text-right lower-content">
+                                        <h6 class="font-weight-bold font-16">
+                                            تکنیک‌‌های مدرن توسعه‌ وب
+                                        </h6>
+
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                    <article>
+                                        <div class="image-box">
+                                            <a href="#">
+                                                <img src="https://roocket.ir/public/images/2019/6/9/webdesign.png" class="img-fluid" alt="alt">
+                                            </a>
+                                        </div>
+                                        <div class="text-right lower-content">
+                                            <h6 class="font-weight-bold font-16">
+                                                تکنیک‌‌های مدرن توسعه‌ وب
+                                            </h6>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-xs-12 col-md-4">
+                                        <article>
+                                            <ul class="blog1-list-holder">
+                                                <li>
+                                                    <a href="#">هزینه تبلیغ در گوگل چقدر است؟</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#">هزینه تبلیغ در گوگل چقدر است؟</a>
+                                                    </li>
+                                                    <li>
+                                                            <a href="#">هزینه تبلیغ در گوگل چقدر است؟</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">هزینه تبلیغ در گوگل چقدر است؟</a>
+                                                            </li>
+                                                            <li>
+                                                                    <a href="#">هزینه تبلیغ در گوگل چقدر است؟</a>
+                                                                </li>
+                                            </ul>
+                                        </article>
+                                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- ============================= -->
+    <section class="service-sec-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="sectionImg">
+                            <img src="img/seo.png" alt="seo">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <h1>خدمات سئو و بهینه سازی وبسایت</h1>
+                        <p>
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                            مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                            درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری
+                            را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+                        </p>
+                        <div class="sec1-btn float-left">
+                            <a href="#" class="seoPricing">درخواست مشاوره</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================= -->
+        <section class="startSeo">
+                    <div class="container">
+                            <div class="row ai-cr">
+                                <div class="col-md-4">
+                                        <h4 class="startSeoHead">
+                                            همین حالا بهینه‌سازی اصولی سایت خود را شروع کنید!
+                                        </h4>
+                                        <p class="seoStartParag">
+                                            <span>
+                                            برای یک شروع فوق‌العاده و مطمئن، کافی است طراحی استراتژی سئوی خود را به ما بسپارید!
+                                        </span>
+                                    </p>
+                                    <div class="sec1-btn js-cr">
+                                            <a href="#" class="startSeoBtn">درخواست مشاوره</a>
+                                        </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="img/seo.png" alt="seo">
+                                </div>
+                                <div class="col-md-4">
+                                        <h4 class="startSeoHead">
+                                                آیا هنوز سوالی برایتان باقی مانده است؟
+                                        </h4>
+                                        <p class="seoStartParag">
+                                            <span>
+                                                    پیشنهاد می‌کنیم بخش پرسش و پاسخ این صفحه را بخوانید یا آنکه با تیم سئو ما تماس بگیرید.
+                                        </span>
+                                    </p>
+                                    <h4 class="startSeoHead">
+                                            021-44556677
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+        <section class="service-sec-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                                <h2 class="sec-Header">
+                                        پرسش و پاسخ
+                                </h2>
+                                <p class="sec-parag">
+                                        پاسخ سوالات شما
+                                </p>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                    </div>
+                </div>
+            </section>
+           
+        <!-- ========================== -->
+
+
+    <!--footer start-->
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row myFlex">
+                <div class=" col-sm-4 col-md-3 col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">لوگو</h5>
+                    <p class="mb10">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                    </p>
+                    <p><i class="fa fa-location-arrow"></i> ایران، تهران، خیابان، کوچه </p>
+                    <p><i class="fa fa-phone"></i> 09121112233 </p>
+                    <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+                </div>
+                <div class=" col-sm-4 col-md-3  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">دسترسی سریع</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="#">لینک اول</a></li>
+                        <li><a href="#">لینک دو</a></li>
+                        <li><a href="#">سومین لینک</a></li>
+                        <li><a href="#">لینک 4</a></li>
+                    </ul>
+                </div>
+                <div class=" col-sm-4 col-md-3  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">لینک های مرتبط</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="#">لینک اول</a></li>
+                        <li><a href="#">لینک دو</a></li>
+                        <li><a href="#">سومین لینک</a></li>
+                        <li><a href="#">لینک 4</a></li>
+                    </ul>
+                </div>
+                <div class=" col-sm-4 col-md-3  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">لینک های مرتبط</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="#">لینک اول</a></li>
+                        <li><a href="#">لینک دو</a></li>
+                        <li><a href="#">سومین لینک</a></li>
+                        <li><a href="#">لینک 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="text-center">تمامی حقوق مادی و معنوی این وبسایت متعلق به شرکت فلان می باشد و هر گونه کپی برداری
+                پیگرد قانونی دارد.</a></p>
+
+            <ul class="social_footer_ul">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/uikit.min.js"></script>
+</body>
+
+</html>
